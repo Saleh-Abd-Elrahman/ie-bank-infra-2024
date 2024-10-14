@@ -6,19 +6,19 @@
             "value": "nonprod"
         },
         "postgreSQLServerName": {
-            "value": "sabdelrahman2-dbsrv-uat"
+            "value": "sabdelrahman-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "sabdelrahman2-db-uat"
+            "value": "sabdelrahman-db-uat"
         },
         "appServicePlanName": {
-            "value": "sabdelrahman2-asp-uat"
+            "value": "sabdelrahman-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "sabdelrahman2-be-uat"
+            "value": "sabdelrahman-be-uat"
         },
         "appServiceAppName": {
-            "value": "sabdelrahman2-fe-uat"
+            "value": "sabdelrahman-fe-uat"
         },
         "location": {
             "value": "North Europe"
