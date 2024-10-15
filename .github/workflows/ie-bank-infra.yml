@@ -37,6 +37,13 @@ jobs:
     environment:
       name: 'Development'
 
+
+    env:
+      ENV: 'development'
+      DBHOST: 'sabdelrahman-dbrsv-dev.postgres.database.azure.com'
+      DBNAME: 'sabdelrahman-be-dev'
+      FLASK_APP: 'app.py'
+
     steps:
 
       # Checkout code
@@ -68,6 +75,12 @@ jobs:
     needs: build
     environment:
       name: 'UAT'
+
+    env:
+      ENV: 'uat'
+      DBHOST: 'sabdelrahman-dbrsv-uat.postgres.database.azure.com'
+      DBNAME: 'sabdelrahman-be-uat'
+      FLASK_APP: 'app.py'
 
     steps:
       - uses: actions/checkout@main
